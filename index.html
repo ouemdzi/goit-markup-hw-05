@@ -74,7 +74,12 @@
             <div>
               <label class="input-label" for="user-name">Name</label>
               <div class="input-wrap">
-                <input type="text" name="text-input" class="modal-input" />
+                <input
+                  type="text"
+                  name="text-input"
+                  class="modal-input"
+                  id="user-name"
+                />
                 <svg class="input-icon">
                   <use
                     href="./images/icons.svg#icon-person-svg"
@@ -87,7 +92,12 @@
             <div>
               <label class="input-label" for="user-tel">Phone</label>
               <div class="input-wrap">
-                <input type="tel" name="tel-input" class="modal-input" />
+                <input
+                  type="tel"
+                  name="tel-input"
+                  class="modal-input"
+                  id="user-tel"
+                />
                 <svg class="input-icon">
                   <use
                     href="./images/icons.svg#icon-tel-svg"
@@ -100,7 +110,12 @@
             <div>
               <label class="input-label" for="user-email">Email</label>
               <div class="input-wrap">
-                <input type="email" name="email-input" class="modal-input" />
+                <input
+                  type="email"
+                  name="email-input"
+                  class="modal-input"
+                  id="user-email"
+                />
                 <svg class="input-icon">
                   <use
                     href="./images/icons.svg#icon-mail-svg"
@@ -115,25 +130,26 @@
               name="comment"
               class="modal-textarea"
               placeholder="Text input"
+              id="comment"
             ></textarea>
-            <label for="checkbox-input">
-              <input
-                type="checkbox-input"
-                name="input-checkbox"
-                id="input-checkbox"
-                class="input-checkbox"
-              />
-              <label for="checkbox-btn"></label>
-              <button class="checkbox-btn">
-                <svg class="checkbox-svg">
-                  <use href="./images/icons.svg#icon-yes-svg"></use>
-                </svg>
-              </button>
-              <span class="policy-text">
-                I accept the terms and conditions of the
-                <a href="/" class="policy-link">Privacy Policy</a>
-              </span>
-            </label>
+            <label for="checkbox-input"></label>
+            <input
+              type="submit"
+              name="input-checkbox"
+              id="checkbox-input"
+              class="input-checkbox"
+            />
+            <label for="policy-btn"></label>
+            <button class="checkbox-btn">
+              <svg class="checkbox-svg">
+                <use href="./images/icons.svg#icon-yes-svg"></use>
+              </svg>
+            </button>
+            <label for="policy-text"></label>
+            <span class="policy-text">
+              I accept the terms and conditions of the
+              <a href="/" class="policy-link">Privacy Policy</a>
+            </span>
             <button type="submit" class="submit-btn">Send</button>
           </form>
         </div>
@@ -547,7 +563,7 @@
             <form class="subscribe-form">
               <input
                 name="email"
-                type="user-email"
+                type="email"
                 class="footer-input"
                 placeholder="E-mail"
               />

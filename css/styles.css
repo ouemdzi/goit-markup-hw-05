@@ -294,7 +294,6 @@ img {
   height: 16px;
   position: absolute;
   left: 24px;
-  display: inline-block;
 }
 
 .checkbox-svg {
@@ -307,7 +306,6 @@ img {
   transform: translate(-50%, -50%);
 }
 .policy-text {
-  display: inline-block;
   color: #8e8f99;
   font-family: Roboto;
   font-style: normal;
