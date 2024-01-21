@@ -777,6 +777,7 @@ img {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  position: relative;
 }
 
 .input-checkbox:checked + .policy-text .privacy-span {
