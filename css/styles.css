@@ -669,7 +669,7 @@ img {
   margin-bottom: 16px;
 }
 
-.uder-title {
+.under-title {
   margin-bottom: 8px;
 }
 
@@ -763,12 +763,6 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.input-checkbox:checked + .privacy-span {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .privacy-span {
   width: 16px;
   height: 16px;
@@ -782,6 +776,13 @@ img {
   justify-content: center;
   fill: transparent;
 }
+
+.input-checkbox:checked + .privacy-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .policy-text {
   color: #8e8f99;
   font-family: Roboto;
