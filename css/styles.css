@@ -283,9 +283,6 @@ img {
   fill: #2e2f42;
   /* margin-left: 16px; */
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .input-checkbox {
@@ -340,8 +337,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: block;
-  margin: 24px auto;
 }
 
 /* ==============ADVANTAGES=========================== */
@@ -680,4 +675,63 @@ img {
 
 .svg-item-footer {
   fill: #f4f4fd;
+}
+
+.form-div {
+  margin-left: 80px;
+}
+
+.form-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.subscribe-form input::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  background-color: #2e2f42;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-btn {
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+}
+
+.telegram-svg {
+  fill: #ffffff;
+  margin-left: 16px;
 }
